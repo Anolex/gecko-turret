@@ -1,6 +1,6 @@
-name: Gecko
+name: gecko
 displayName: Gecko
-description: Adds a laser ground-to-air (SPAA) system designed to exceptionally handle air targets.
+description: "Adds a laser ground-to-air SPAA system designed to handle air targets with exceptional efficiency."
 minGameVersion: 157
-version: 1.0: Advanced
+version: "1.0"
 author: Anolex
