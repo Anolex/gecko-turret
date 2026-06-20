@@ -1,4 +1,4 @@
-# Mindustry Turrets Extension
+# Mindustry Gecko Turret
 
 This Mindustry mod add a new laser turret to handle the air targets.
 
