@@ -1,0 +1,63 @@
+type: ContinuousTurret
+name: Gecko
+description: A laser ground-to-air (SPAA) system designed to exceptionally handle air targets.
+# Uses sprites/blocks/gecko.png and sprites/blocks/gecko-base.png.
+reload: 1
+shootCone: 1
+rotateSpeed: 14
+heatColor: ff0000
+size: 2
+range: 250
+health: 650
+inaccuracy: 0
+loopSound: gecko
+loopSoundVolume: 1
+outlineIcon: false
+targetAir: true
+targetGround: false
+targetInterval: 0.5
+recoil: 0
+coolantMultiplier: 0
+consumes: {
+  power: 9
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 7
+  damageInterval: 4
+  length: 250
+  width: 2
+  lifetime: 16
+  pierce: false
+  pierceBuilding: flase
+  status: melting
+  statusDuration: 90
+  makeFire: true
+  incendChance: 0.2
+  hitSoundVolume: 0
+  hitEffect: hitLancer
+  despawnEffect: none
+  shootEffect: none
+  smokeEffect: none
+  colors: [
+    ffdddd
+    ff5555
+    ff0000
+  ]
+}
+requirements: [
+  copper/90
+  lead/100
+  titanium/120
+  silicon/100
+]
+research: {
+  parent: lancer
+  requirements: [
+    copper/90
+    lead/100
+    titanium/120
+    silicon/100
+  ]
+}
+category: turret
